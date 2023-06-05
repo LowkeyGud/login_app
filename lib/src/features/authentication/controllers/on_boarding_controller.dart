@@ -5,7 +5,7 @@ import '../../../constants/colors.dart';
 import '../../../constants/image_string.dart';
 import '../../../constants/text_strings.dart';
 import '../models/model_onboarding.dart';
-import '../screens/splash_screen/on_boarding/on_boarding_page_widget.dart';
+import '../screens/on_boarding/on_boarding_page_widget.dart';
 
 class OnBoardingController extends GetxController {
   final controller = LiquidController();
@@ -18,7 +18,7 @@ class OnBoardingController extends GetxController {
         title: tOnboardingTitle1,
         subtitle: tOnboardingSubTitle1,
         counterText: tOnBoardingCounter1,
-        bgColor: tOnBoardingPage1Color,
+        bgColor: hOnBoardingPage1Color,
       ),
     ),
     OnBoardingPageWidget(
@@ -27,7 +27,7 @@ class OnBoardingController extends GetxController {
         title: tOnboardingTitle2,
         subtitle: tOnboardingSubTitle2,
         counterText: tOnBoardingCounter2,
-        bgColor: tOnBoardingPage2Color,
+        bgColor: hOnBoardingPage2Color,
       ),
     ),
     OnBoardingPageWidget(
@@ -36,7 +36,7 @@ class OnBoardingController extends GetxController {
         title: tOnboardingTitle3,
         subtitle: tOnboardingSubTitle3,
         counterText: tOnBoardingCounter3,
-        bgColor: tOnBoardingPage3Color,
+        bgColor: hOnBoardingPage3Color,
       ),
     ),
   ];

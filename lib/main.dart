@@ -14,10 +14,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Login App',
       theme: GAppTheme.lightTheme,
       darkTheme: GAppTheme.darkTheme,
       themeMode: ThemeMode.system, //deafault
+      defaultTransition: Transition.rightToLeft,
+      transitionDuration: const Duration(milliseconds: 600),
       home: SplashScreen(),
     );
   }

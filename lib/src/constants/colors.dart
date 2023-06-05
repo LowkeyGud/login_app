@@ -1,15 +1,15 @@
 import 'dart:ui';
 
 // -- LIST OF COLORS - - //
-const tPrimaryColor = Color(0xFFFFE400);
-const tSecondaryColor = Color(0xFF272727);
-const tAccentColor = Color(0xFF001BFF);
+const hPrimaryColor = Color.fromARGB(255, 255, 255, 255);
+const hSecondaryColor = Color.fromARGB(255, 0, 0, 0);
+const hAccentColor = Color(0xFF001BFF);
 
-const tCardBgColor = Color(0xFFF7F6F1);
-const tWhiteColor = Color(0xffffffff);
-const tDarkColor = Color(0xFF000000);
+const hCardBgColor = Color(0xFFF7F6F1);
+const hWhiteColor = Color(0xffffffff);
+const hDarkColor = Color(0xFF000000);
 
 // ON-BOARDING COLORS
-const tOnBoardingPage1Color = Color.fromARGB(255, 255, 255, 255);
-const tOnBoardingPage2Color = Color.fromARGB(255, 190, 251, 190);
-const tOnBoardingPage3Color = Color.fromARGB(255, 94, 226, 249);
+const hOnBoardingPage1Color = Color.fromARGB(255, 255, 255, 255);
+const hOnBoardingPage2Color = Color.fromARGB(255, 190, 251, 190);
+const hOnBoardingPage3Color = Color.fromARGB(255, 94, 226, 249);
