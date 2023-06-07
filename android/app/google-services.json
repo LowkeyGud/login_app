@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "138999405026",
+    "project_id": "loginapp-bc8ad",
+    "storage_bucket": "loginapp-bc8ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138999405026:android:fdb009a5ca8517468401bb",
+        "android_client_info": {
+          "package_name": "com.example.login_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138999405026-i715sv8sbfji6c54mvsi3fkno3id5175.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqIEFmPQc74uw2fyxDJLeOgpg2aiRCfC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138999405026-i715sv8sbfji6c54mvsi3fkno3id5175.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

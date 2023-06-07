@@ -34,6 +34,9 @@ class Welcome extends StatelessWidget {
                     textAlign: TextAlign.center),
               ],
             ),
+
+            //LOGIN BUTTON
+
             Row(
               children: [
                 Expanded(
@@ -44,6 +47,9 @@ class Welcome extends StatelessWidget {
                     child: Text(hLogin.toUpperCase()),
                   ),
                 ),
+
+                // SIGN UP BUTTON
+
                 const SizedBox(width: 10.0),
                 Expanded(
                   child: ElevatedButton(

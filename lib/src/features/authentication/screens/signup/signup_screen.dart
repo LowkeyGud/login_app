@@ -19,13 +19,22 @@ class SignUpScreen extends StatelessWidget {
             padding: const EdgeInsets.all(defaultSize),
             child: const Column(
               children: [
+
+                // FROM HEADER WITH IMAGE AND TITLE
+
                 FormHeaderWidget(
                   image: hWelcomeImage,
                   title: hSignUpTtile,
                   subTitle: hSignUpSubtitle,
                   imageHeight: 0.15,
                 ),
+
+                // ACTUAL FORM WITH FORM TEXTFIELDS
+
                 SignUpFormWidget(),
+
+                //ALREADY HAVE A ACCOUNT / GOOGLE SIGN IN
+                
                 SignUpFooterWidget(),
               ],
             ),

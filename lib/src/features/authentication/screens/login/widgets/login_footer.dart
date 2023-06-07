@@ -28,7 +28,7 @@ class LoginFooterWidget extends StatelessWidget {
         const SizedBox(height: 10.0),
         TextButton(
           onPressed: () {
-            Get.to(() => const SignUpScreen());
+            Get.off(() => const SignUpScreen());
           },
           child: Text.rich(
             TextSpan(
