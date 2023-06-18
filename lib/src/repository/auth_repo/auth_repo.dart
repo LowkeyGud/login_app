@@ -4,7 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import 'package:login_app/src/features/authentication/screens/welcome/welcome_screen.dart';
 import 'package:login_app/src/features/core/screens/dashboard/dashboard.dart';
-import 'package:login_app/src/repository/auth_repo/defaut_signup_failure.dart';
+import 'package:login_app/src/repository/auth_repo/default_signup_failure.dart';
 
 class AuthenticationRepository extends GetxController {
   static AuthenticationRepository get instance => Get.find();
@@ -40,7 +40,6 @@ class AuthenticationRepository extends GetxController {
           : Get.to(() => const Welcome());
     } on FirebaseAuthException catch (e) {
       final ex = DefaultSignUpFailure.code(e.code);
-      print('FIREBASE AUTH EXCEPTION = ${ex.message}');
       throw ex;
     } catch (_) {
       const ex = DefaultSignUpFailure();

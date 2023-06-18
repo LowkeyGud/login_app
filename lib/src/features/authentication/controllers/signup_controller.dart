@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:login_app/src/repository/auth_repo/auth_repo.dart';
 
 class SignupController extends GetxController {
   static SignupController get instance => Get.find();
@@ -9,7 +10,8 @@ class SignupController extends GetxController {
   final password = TextEditingController();
   final fullName = TextEditingController();
 
-  void registerUser(String email, String password) {
-    // AuthenticationRepository.instance.createUserWithEmailAndPassword(email, password);
+  Future<void> registerUser (String email, String password) async {
+    await AuthenticationRepository.instance.createUserWithEmailAndPassword(email, password);
+    // Get.to(() => const Dashboard());
   }
 }
